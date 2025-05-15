@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kid's Collection</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="icon" href="Dev logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="-webkit-mask-image: url(//resources/images/icon_search.svg);">
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    
+
+
+    body {
+      position: relative;
+    }
+    #section1 {padding-top:50px;height:auto;color: #fff; background-color: #b94c74;}
+    #section2 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+    #section3 {padding-top:50px;height:auto;color: #fff; background-color: #009688;}
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    tr, td {
+        border: transparent;
+        padding: 8px;
+        text-align: left;
+    }
+    /* Responsive styles */
+    @media (max-width: 600px) {
+        table {
+            border: 0;
+        }
+        th, td {
+            border: 0;
+            display: block;
+            padding: 4px;
+        }
+        th {
+            text-align: center;
+        }
+    }
+    </style>
+<header>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="logo.png" height="35px"></a>
+        </div>
+        
+          <div class="collapse navbar-collapse" id="myNavbar">
+            
+            <ul class="nav navbar-nav">
+                
+                <li><a href="#section1">T-shirts & Tops</a></li>
+              <li><a href="#section2">Shorts,Trousers & Pants</a></li>
+              <li><a href="#section3">ACCESSORY & Shoes</a></li>
+              
+            </ul>
+            <ul class="nav navbar-right">
+                <li><h2>Kid's Collection</h2></a></li>
+            </ul>
+                
+          
+        </div>
+      </div>
+    </nav> 
+    
+</body>
+</header>
+<!--modal for cart-->
+
+<div class="modal fade" id="myModal123" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4><img src="logo.png" alt="logo" width="90px"></h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="right logo.png" alt="rightlogo" height="20px">
+          <label><b>Product added to cart</b></label><br>
+          <input type="button"class="btn btn-primary" value="OK" data-dismiss="modal" >
+          
+        </center>
+      </div>
+     
+    </div>
+    
+  </div>
+</div>
+
+
+<!--modal for wishlist-->
+<div class="modal fade" id="myModal1234" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4><img src="logo.png" alt="logo" width="90px"></h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="wishlist.png" alt="rightlogo" height="80px"><br><br>
+          <label><b>Product added to Wishlist</b></label><br>
+          <input type="button"class="btn btn-primary" value="OK" data-dismiss="modal" >
+          
+        </center>
+      </div>
+     
+    </div>
+    
+  </div>
+</div>
+
+
+
+<!--modal for  buy-->
+<div class="modal fade" id="myModal12345" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4><img src="logo.png" alt="logo" width="90px"></h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="sorry.png" alt="rightlogo" height="80px"><br><br>
+          <label><b>First you signup or Login in Dev's sport store and than continue your shopping</b></label><br>
+          <input type="button"class="btn btn-primary" value="OK" data-dismiss="modal" >
+          
+        </center>
+      </div>
+     
+    </div>
+    
+  </div>
+</div>
+
+<div class="#">
+  <h2>Kid's Collection</h2>
+  <img src="kidds home page.avif" alt="basket ball add img" style="width: 100%;" >
+</div>
+
+
+
+<!--T-shirts & Tops-->
+
+<div id="section1" class="container-fluid">
+  <center><h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">T-shirts & Tops</h2></center><br><br>
+  <hr color="Black">
+  <div style="overflow-x:auto;">
+              <table>
+  
+    
+    <tr>
+
+
+    
+      <td colspan="2" style="padding:20px;">
+        <a href="tennish.html"> <img src="kw2.avif" style="width:330px; height:300px;"></a>
+      <p>ARTENGO</p>
+      <h2>₹899</h2>
+      <p>Girls' Tennis Jacket TJK500 - Navy Blue</p>
+     <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+      </td>
+
+      <td colspan="2" style="padding:20px;">
+        <a href="kids.html"> <img src="kw.avif" style="width:330px; height:300px;"></a>
+      <p>DOMYOS</p>
+      <h2>₹199</h2>
+      <p>Boys Cotton Printed Tshirt - Blue</p>
+     <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+      </td>
+
+      <td colspan="2" style="padding:20px;">
+        <img src="bk4.avif" style="width:330px; height:300px;">
+        <p>PERFLY</p>
+        <h2>₹799</h2>
+        <p>LITE Badminton T-shirt 560 Junior Red Black</p>
+       <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+        <td colspan="2" style="padding:20px;">
+          <img src="fc6.avif" style="width:330px; height:300px;">
+          <p>KIPSTA</p>
+          <h2>₹799</h2>
+          <p>Kids' Long-Sleeved Football Shirt </p>
+         <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+          </td>
+
+        
+          
+
+     </tr>
+    
+    
+    
+    
+  <tr>
+    <td colspan="2" style="padding:20px;">
+      <img src="fc8.avif" style="width:330px; height:300px;">
+      <p>KIPSTA</p>
+      <h2>₹599</h2>
+      <p>Kids' Home Shirt - India</p>
+     <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+      </td>
+
+
+    
+      <td colspan="2" style="padding:20px;">
+        <img src="fc9.avif" style="width:330px; height:300px;">
+        <p>KIPSTA</p>
+        <h2>₹349</h2>
+        <p>Kids Football Jersey Shirt F100 - Red</p>
+       <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+    
+        <td colspan="2" style="padding:20px;">
+          <img src="hj8.avif" style="width:330px; height:300px;">
+          <p>QUECHUA</p>
+          <h2>₹1499</h2>
+          <p>Kids Hiking Padded Jacket</p>
+         <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+          </td>
+
+          <td colspan="2" style="padding:20px;">
+              <img src="hj9.avif" style="width:330px; height:300px;">
+              <p>QUECHUA</p>
+              <h2>₹1199</h2>
+              <p>KIDS’ PADDED HIKING JACKET</p>
+             <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+              </td>
+    </tr>
+
+    <tr>
+      <td colspan="2" style="padding:20px;">
+        <img src="tennisc1.avif" style="width:330px; height:300px;">
+        <p>ARTENGO</p>
+        <h2>₹229</h2>
+        <p>Kids Tennis T-Shirt - TTS500 Red</p>
+       <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+            <td colspan="2" style="padding:20px;">
+                <img src="kw4.avif" style="width:330px; height:300px;">
+                <p>ARTENGO</p>
+                <h2>₹599</h2>
+                <p>Boys Tennis T-Shirt - TTS500</p>
+               <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                </td>
+
+                <td colspan="2" style="padding:20px;">
+                    <img src="kw5.avif" style="width:330px; height:300px;">
+                    <p>DOMYOS</p>
+                    <h2>₹500</h2>
+                    <p>Girls Double Layered T-shirt S500 - Pink</p>
+                   <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                    </td>
+
+                    <td colspan="2" style="padding:20px;">
+                        <img src="kw6.avif" style="width:330px; height:300px;">
+                        <p>QUECHUA</p>
+                        <h2>₹399</h2>
+                        <p>Kids' T-Shirt - MH100 </p>
+                       <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                        </td>
+          </tr>
+
+        </table>
+      </div>
+      </div>
+
+  <!--Shorts,Trousers & Pants-->    
+
+  
+
+          <div id="section2" class="container-fluid">
+            <img src="kidss adds short.avif" alt="basket ball add img" style="width: 100%;" ><br><br><br><br>
+          <center><h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">Shorts,Trousers & Pants</h2></center><br><br>
+  <hr color="Black">
+  
+  
+  <div style="overflow-x:auto;">
+              <table>
+  
+    
+    <tr>
+      <td colspan="2" style="padding:20px;">
+        <a href="football.html"> <img src="kw3.avif" style="width:330px; height:300px;"></a>
+        <p>KIPSTA</p>
+        <h2>₹399</h2>
+        <p>Kids Football Shorts F100 - Black</p>
+       <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+        <td colspan="2" style="padding:20px;">
+          <a href="kids.html"><img src="kw1.avif" style="width:330px; height:300px;"></a>
+          <p>DOMYOS</p>
+          <h2>₹499</h2>
+          <p>Kids' Warm Jogging Bottoms - Print</p>
+         <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+          </td>
+          <td colspan="2" style="padding:20px;">
+            <img src="bk5.avif" style="width:330px; height:300px;">
+            <p>PERFLY</p>
+            <h2>₹799</h2>
+            <p>Kids Badminton Shorts 560 Navy</p>
+           <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+
+                    <td colspan="2" style="padding:20px;">
+                        <img src="kb.avif" style="width:330px; height:300px;">
+                        <p>DOMYOS</p>
+                        <h2>₹699</h2>
+                        <p>Kids' Breathable Tracksuit S500 </p>
+                       <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                        </td>
+             </tr>
+
+             <tr>
+                <td colspan="2" style="padding:20px;">
+                    <img src="kb1.avif" style="width:330px; height:300px;">
+                    <p>DOMYOS</p>
+                    <h2>₹599</h2>
+                    <p>Kids' Baby Gym Warm Slim-Fit Bottoms </p>
+                   <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                    </td>
+
+                    <td colspan="2" style="padding:20px;">
+                        <img src="kb2.avif" style="width:330px; height:300px;">
+                        <p>DOMYOS</p>
+                        <h2>₹599</h2>
+                        <p>Kids' Breathable Synthetic Tracksuit Gym'Y </p>
+                       <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                        </td>
+
+                        <td colspan="2" style="padding:20px;">
+                            <img src="kb3.avif" style="width:330px; height:300px;">
+                            <p>DOMYOS</p>
+                            <h2>₹1,199</h2>
+                            <p>Kids' Breathable Synthetic Tracksuit</p>
+                           <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                            </td>
+
+                            <td colspan="2" style="padding:20px;">
+                                <img src="kb4.avif" style="width:330px; height:300px;">
+                                <p>DOMYOS</p>
+                                <h2>₹999</h2>
+                                <p>Kids' Basic Warm Regular-Fit Tracksuit</p>
+                               <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                </td>
+             </tr>
+
+             <tr>
+                <td colspan="2" style="padding:20px;">
+                    <img src="kb5.avif" style="width:330px; height:300px;">
+                    <p>DOMYOS</p>
+                    <h2>₹599</h2>
+                    <p>Kids' Breathable Shorts </p>
+                   <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                    </td>
+
+                    <td colspan="2" style="padding:20px;">
+                        <img src="kb6.avif" style="width:330px; height:300px;">
+                        <p>DOMYOS</p>
+                        <h2>₹499</h2>
+                        <p>Kids' Hiking Shorts MH500 </p>
+                       <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                        </td>
+
+                 <td colspan="2" style="padding:20px;">
+        <img src="kb7.avif" style="width:330px; height:300px;">
+        <p>DOMYOS</p>
+        <h2>₹400</h2>
+        <p>Baby Adjustable Shorts</p>
+       <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+        <td colspan="2" style="padding:20px;">
+            <img src="kb8.avif" style="width:330px; height:300px;">
+            <p>DOMYOS</p>
+            <h2>₹600</h2>
+            <p>Kids' Baby Gym Basic Shorts </p>
+           <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+             </tr>
+  </table>
+</div>
+</div>
+<!--ACCESSORY & Shoes-->
+
+<div id="section3" class="container-fluid">
+  <img src="kidss adds.avif" alt="basket ball add img" style="width: 100%;" ><br><br><br><br>
+  <center><h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">ACCESSORY & Shoes</h2></center><br><br>
+<hr color="Black">
+
+<div style="overflow-x:auto;">
+              <table>
+
+
+<tr>
+  <td colspan="2" style="padding:20px;">
+    <a href="hikking.html"> <img src="kf.avif" style="width:330px; height:300px;"></a>
+  <p>QUECHUA</p>
+  <h2>₹999</h2>
+  <p>Kids’ Hiking Shoes with Velcro Strap MH100 </p>
+ <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+  </td>
+
+  <td colspan="2" style="padding:20px;">
+    <a href="kids.html"><img src="kf2.avif" style="width:330px; height:300px;"></a>
+  <p>DECATHLON</p>
+  <h2>₹1,699</h2>
+  <p>Kids' Durable Rip-Tab Trainers TS160 4.6 16k </p>
+ <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+  </td>
+  <td colspan="2" style="padding:20px;">
+    <a href="kids.html"> <img src="kf3.avif" style="width:330px; height:300px;"></a>
+    <p>QUECHUA</p>
+    <h2>₹1,999</h2>
+    <p>Kids Sandals - Red The grip of our soles</p><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button>       <button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> <button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button>
+    </td>
+
+    <td colspan="2" style="padding:20px;">
+      <a href="hikking.html"> <img src="kf1.avif" style="width:330px; height:300px;"></a>
+      <p>QUECHUA</p>
+      <h2>₹999</h2>
+      <p>Junior Hiking Sandals MH100 - Blue/Yellow</p>
+     <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+      </td>
+                </tr>
+
+     <tr>
+      <td colspan="2" style="padding:20px;">
+        <img src="sa9.avif" style="width:330px; height:300px;">
+        <p>NABAIJI</p>
+        <h2>₹1499</h2>
+        <p>Swim vest SWIMVEST+ green blue</p>
+       <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+
+        <td colspan="2" style="padding:20px;">
+            <img src="sa10.avif" style="width:330px; height:300px;">
+            <p>WATKO</p>
+            <h2>₹399</h2>
+            <p>Pool Ball Size- 4 GREEN</p>
+           <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+
+            <td colspan="2" style="padding:20px;">
+              <img src="sa8.avif" style="width:330px; height:300px;">
+              <p>NABAIJI</p>
+              <h2>₹499</h2>
+              <p>Inflatable Pool Ring 51 cm </p>
+             <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+              </td>
+
+              <td colspan="2" style="padding:20px;">
+                <img src="sa7.avif" style="width:330px; height:300px;">
+                <p>NABAIJI</p>
+                <h2>₹399</h2>
+                <p>Kids Swimming Armbands For 11 to 30 Kg </p>
+               <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                </td>
+     </tr>
+
+     <tr>
+      <td colspan="2" style="padding:20px;">
+        <img src="sa5.avif" style="width:330px; height:300px;">
+        <p>NABAIJI</p>
+        <h2>₹999</h2>
+        <p>Swimming Inflatable Ring With Seat </p>
+       <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+
+        <td colspan="2" style="padding:20px;">
+          <img src="kf5.avif" style="width:330px; height:300px;">
+          <p>KOROK</p>
+          <h2>₹1,699</h2>
+          <p>Kids' Low to Mid Intensity Field Hockey Shoes</p>
+         <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+          </td>
+          <td colspan="2" style="padding:20px;">
+            <img src="kf4.avif" style="width:330px; height:300px;">
+            <p>PERFLY</p>
+            <h2>₹1,199</h2>
+            <p>Kids Badminton Shoes BS 160 Pink</p>
+           <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+          
+          
+          <td colspan="2" style="padding:20px;">
+          <img src="kf2.avif" style="width:330px; height:300px;">
+          <p>DECATHLON</p>
+          <h2>₹1,699</h2>
+          <p>Kids' Durable Rip-Tab Trainers TS160 4.6 16k </p>
+         <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+          </td>
+     </tr>
+     <tr>
+      <td colspan="2" style="padding:20px;">
+          <img src="kf8.avif" style="width:330px; height:300px;">
+          <p>PERFLY</p>
+          <h2>₹1,499</h2>
+          <p>Kids Badminton Shoe BS 100 Blue</p>
+         <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+          </td>
+
+
+          <td colspan="2" style="padding:20px;">
+              <img src="kf9.avif" style="width:330px; height:300px;">
+              <p>PERFLY</p>
+              <h2>₹1300</h2>
+              <p>Children's waterproof walking shoes </p>
+             <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+              </td>
+
+        <td colspan="2" style="padding:20px;">
+      <img src="kf10.avif" style="width:330px; height:300px;">
+      <p>ARTENGO</p>
+      <h2>₹1,999</h2>
+      <p>Kids' Rip-Tab Tennis Shoes TS500 Fast KD</p>
+     <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+      </td>
+
+      <td colspan="2" style="padding:20px;">
+          <img src="kf11.avif" style="width:330px; height:300px;">
+          <p>ARTENGO</p>
+          <h2>₹3,499</h2>
+          <p>Kids’ Warm, Waterproof Hiking Boots SH100</p>
+         <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+          </td>
+   </tr>
+</table>
+</div>
+</div>
+
+<section id="copy-right">
+  <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
+    © 2024 Dev'S Sports Store India Pvt Ltd. All rights reserved 
+
+
+  </div>
+
+</section>
+
+</html>
+
+
+
+
+ 

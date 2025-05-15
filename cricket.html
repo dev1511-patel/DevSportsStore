@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricket</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="icon" href="Dev logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="-webkit-mask-image: url(//resources/images/icon_search.svg);">
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    
+
+
+    body {
+      position: relative;
+    }
+    #section1 {padding-top:50px;height:auto;color: #fff; background-color: #b94c74;}
+    #section2 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+    #section3 {padding-top:50px;height:auto;color: #fff; background-color: #009688;}
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    tr, td {
+        border: transparent;
+        padding: 8px;
+        text-align: left;
+    }
+    /* Responsive styles */
+    @media (max-width: 600px) {
+        table {
+            border: 0;
+        }
+        th, td {
+            border: 0;
+            display: block;
+            padding: 4px;
+        }
+        th {
+            text-align: center;
+        }
+    }
+    </style>
+<header>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="logo.png" height="35px"></a>
+        </div>
+        
+          <div class="collapse navbar-collapse" id="myNavbar">
+            
+            <ul class="nav navbar-nav">
+                
+                <li><a href="#section1">Cricket Bats</a></li>
+              <li><a href="#section2">Cloths</a></li>
+              <li><a href="#section3">kit & other Equipments</a></li>
+              
+            </ul>
+            <ul class="nav navbar-right">
+                <li><h2>Cricket Equipments</h2></a></li>
+            </ul>
+                
+          
+        </div>
+      </div>
+    </nav> 
+    
+</body>
+</header>
+
+<!--modal for cart-->
+
+<div class="modal fade" id="myModal123" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><img src="logo.png" alt="logo" width="90px"></h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="right logo.png" alt="rightlogo" height="20px">
+            <label><b>Product added to cart</b></label><br>
+            <input type="button"class="btn btn-primary" value="OK" data-dismiss="modal" >
+            
+          </center>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  <!--modal for wishlist-->
+  <div class="modal fade" id="myModal1234" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><img src="logo.png" alt="logo" width="90px"></h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="wishlist.png" alt="rightlogo" height="80px"><br><br>
+            <label><b>Product added to Wishlist</b></label><br>
+            <input type="button"class="btn btn-primary" value="OK" data-dismiss="modal" >
+            
+          </center>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  <!--modal for  buy-->
+  <div class="modal fade" id="myModal12345" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><img src="logo.png" alt="logo" width="90px"></h4>
+        </div>
+        <div class="modal-body">
+          <center>
+            <img src="sorry.png" alt="rightlogo" height="80px"><br><br>
+            <label><b>First you signup or Login in Dev's sport store and than continue your shopping</b></label><br>
+            <input type="button"class="btn btn-primary" value="OK" data-dismiss="modal" >
+            
+          </center>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+
+<div class="#">
+  <h1>Cricket Equipments</h1>
+  <a href="#">  <img src="Screenshot (47).png" alt="cricket add img" style="width: 100%;" ></a>
+</div>
+
+
+
+<!-- Cricket Bats-->
+
+<div id="section1" class="container-fluid">
+  <center><h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">Cricket Bats</h2></center><br><br>
+  <hr color="Black">
+  <div style="overflow-x:auto;">
+              <table>
+  
+    
+    <tr>
+        <td colspan="2" style="padding:20px;">
+            <img src="cb.avif" style="width:330px; height:300px;">
+            <p>FLX</p>
+            <h2>₹6999</h2>
+            <p>ADULT Cricket Bat English Willow </p>
+            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+    
+            <td colspan="2" style="padding:20px;">
+                <img src="cb1.avif" style="width:330px; height:300px;">
+                <p>FLX</p>
+                <h2>₹2,799</h2>
+                <p>Adult Cricket Bat Kashmir Willow </p>
+                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                </td>
+    
+                <td colspan="2" style="padding:20px;">
+                    <img src="cb2.avif" style="width:330px; height:300px;">
+                    <p>FLX</p>
+                    <h2>₹2599</h2>
+                    <p>Adult Cricket Bat for Hard Tennis ball bat</p>
+                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                    </td>
+    
+                    <td colspan="2" style="padding:20px;">
+                        <img src="cb3.avif" style="width:330px; height:300px;">
+                        <p>FLX</p>
+                        <h2>₹899</h2>
+                        <p>T 500 LIGHT ADULT BLUE</p>
+                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td colspan="2" style="padding:20px;">
+                            <img src="cb4.avif" style="width:330px; height:300px;">
+                            <p>FLX</p>
+                            <h2>₹399</h2>
+                            <p>Kids Cricket Foam Bat MAUVE</p>
+                            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                            </td>
+                    
+                            <td colspan="2" style="padding:20px;">
+                                <img src="cb5.avif" style="width:330px; height:300px;">
+                                <p>FLX</p>
+                                <h2>₹17,999</h2>
+                                <p>Adult Cricket Bat Grade 3 English Willow</p>
+                                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                </td>
+                    
+                                <td colspan="2" style="padding:20px;">
+                                    <img src="cb6.avif" style="width:330px; height:300px;">
+                                    <p>FLX</p>
+                                    <h2>₹499</h2>
+                                    <p>Kids Cricket Bat for Soft Tennis Ball</p>
+                                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                    </td>
+                    
+                                    <td colspan="2" style="padding:20px;">
+                                        <img src="cb7.avif" style="width:330px; height:300px;">
+                                        <p>FLX</p>
+                                        <h2>₹2,999</h2>
+                                        <p>Cricket Bat for Medium Tennis Ball</p>
+                                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <td colspan="2" style="padding:20px;">
+                                            <img src="cb8.avif" style="width:330px; height:300px;">
+                                            <p>FLX</p>
+                                            <h2>₹1799</h2>
+                                            <p>TB500 MEDIUM 24 PACK</p>
+                                            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                            </td>
+                                    
+                                            <td colspan="2" style="padding:20px;">
+                                                <img src="cb9.avif" style="width:330px; height:300px;">
+                                                <p>FLX</p>
+                                                <h2>₹699</h2>
+                                                <p>KIDS TENNIS BALL CRICKET BAT T</p>
+                                                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                                </td>
+                                    
+                                                <td colspan="2" style="padding:20px;">
+                                                    <img src="cb10.avif" style="width:330px; height:300px;">
+                                                    <p>FLX</p>
+                                                    <h2>₹89</h2>
+                                                    <p>Cricket Tennis Ball Tb Hard Red</p>
+                                                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                                    </td>
+                                    
+                                                    <td colspan="2" style="padding:20px;">
+                                                        <img src="cb11.avif" style="width:330px; height:300px;">
+                                                        <p>FLX</p>
+                                                        <h2>₹499</h2>
+                                                        <p>CRICKET NON TOXIC 2 PIECE LEATHER BALL</p>
+                                                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                                        </td>
+                                                    </tr>
+
+        </table>
+      </div>
+      </div>
+
+  <!--Cloths-->    
+
+  
+
+          <div id="section2" class="container-fluid">
+            <a href="#">   <img src="Screenshot (50).png" alt="crickrt add img" style="width: 100%;" ></a><br><br><br><br>
+          <center><h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">Cloths</h2></center><br><br>
+  <hr color="Black">
+  
+  
+  <div style="overflow-x:auto;">
+              <table>
+  
+    
+    <tr>
+        <td colspan="2" style="padding:20px;">
+            <img src="cw.avif" style="width:330px; height:300px;">
+            <p>FLX</p>
+            <h2>₹699</h2>
+            <p>MEN'S CRICKET STRAIGHT FIT TROUSER</p>
+            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+    
+            <td colspan="2" style="padding:20px;">
+                <img src="cw1.avif" style="width:330px; height:300px;">
+                <p>FLX</p>
+                <h2>₹999</h2>
+                <p>Men CRICKET TAPER FIT TRACKPANTS </p>
+                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                </td>
+    
+                <td colspan="2" style="padding:20px;">
+                    <img src="cw2.avif" style="width:330px; height:300px;">
+                    <p>FLX</p>
+                    <h2>₹399</h2>
+                    <p>Men's Cricket T-shirt Round Neck</p>
+                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                    </td>
+    
+                    <td colspan="2" style="padding:20px;">
+                        <img src="cw3.avif" style="width:330px; height:300px;">
+                        <p>FLX</p>
+                        <h2>₹799</h2>
+                        <p>Men Cricket Polo Breathable Short Sleeve</p>
+                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td colspan="2" style="padding:20px;">
+                            <img src="cw4.avif" style="width:330px; height:300px;">
+                            <p>FLX</p>
+                            <h2>₹599</h2>
+                            <p>MENS CRICKET WHITE POLO P100</p>
+                            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                            </td>
+                    
+                            <td colspan="2" style="padding:20px;">
+                                <img src="cw5.avif" style="width:330px; height:300px;">
+                                <p>FLX</p>
+                                <h2>₹699</h2>
+                                <p>MENS CRICKET WHITE TROUSERS TS 100</p>
+                                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                </td>
+                    
+                                <td colspan="2" style="padding:20px;">
+                                    <img src="cw6.avif" style="width:330px; height:300px;">
+                                    <p>FLX</p>
+                                    <h2>₹499</h2>
+                                    <p>KIDS CRICKET WHITE POLO P 100 JR</p>
+                                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                    </td>
+                    
+                                    <td colspan="2" style="padding:20px;">
+                                        <img src="cw7.avif" style="width:330px; height:300px;">
+                                        <p>FLX</p>
+                                        <h2>₹899</h2>
+                                        <p>Kids Cricket Whites Eco design Trouser</p>
+                                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                        </td>
+                                    </tr>
+    
+                                    <tr>
+                                        <td colspan="2" style="padding:20px;">
+                                            <img src="cw8.avif" style="width:330px; height:300px;">
+                                            <p>FLX</p>
+                                            <h2>₹399</h2>
+                                            <p>KIDS CRICKET STRAIGHT FIT TROUSER </p>
+                                            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                            </td>
+                                    
+                                            <td colspan="2" style="padding:20px;">
+                                                <img src="cw10.avif" style="width:330px; height:300px;">
+                                                <p>FLX</p>
+                                                <h2>₹799</h2>
+                                                <p>Men Cricket Polo Breathable Short Sleeve </p>
+                                                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                                </td>
+                                    
+                                                <td colspan="2" style="padding:20px;">
+                                                    <img src="cw9.avif" style="width:330px; height:300px;">
+                                                    <p>FLX</p>
+                                                    <h2>₹399</h2>
+                                                    <p>Men's Cricket T-shirt Round Neck</p>
+                                                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                                    </td>
+                                    
+                                                    <td colspan="2" style="padding:20px;">
+                                                        <img src="cw11.avif" style="width:330px; height:300px;">
+                                                        <p>FLX</p>
+                                                        <h2>₹299</h2>
+                                                        <p>UV PROTECTION CRICKET CAP WHITE</p>
+                                                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                                        </td>
+                                                    </tr>
+  </table>
+ </div>
+ </div>
+<!--kit & other Equipments-->
+
+<div id="section3" class="container-fluid">
+ <a href="#"> <img src="Screenshot (48).png" alt="cricket add img" style="width: 100%;" ></a><br><br><br><br>
+  <center><h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">kit & other Equipments</h2></center><br><br>
+<hr color="Black">
+
+<div style="overflow-x:auto;">
+              <table>
+
+
+<tr>
+    <td colspan="2" style="padding:20px;">
+        <img src="ce.avif" style="width:330px; height:300px;">
+        <p>FLX</p>
+        <h2>₹599</h2>
+        <p>KIDS CRICKET BATTING GLOVES </p>
+        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+        <td colspan="2" style="padding:20px;">
+            <img src="ce1.avif" style="width:330px; height:300px;">
+            <p>FLX</p>
+            <h2>₹1,799</h2>
+            <p>LIGHTWEIGHT BEGINNER CRICKET HELMET </p>
+            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+
+            <td colspan="2" style="padding:20px;">
+                <img src="ce2.avif" style="width:330px; height:300px;">
+                <p>FLX</p>
+                <h2>₹199</h2>
+                <p>AB 500 KIDS GROIN GUARD</p>
+                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                </td>
+
+                <td colspan="2" style="padding:20px;">
+                    <img src="ce3.avif" style="width:330px; height:300px;">
+                    <p>FLX</p>
+                    <h2>₹2,499</h2>
+                    <p>ADULT CRICKET BATTING PAD </p>
+                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="padding:20px;">
+                        <img src="ce4.avif" style="width:330px; height:300px;">
+                        <p>FLX</p>
+                        <h2>₹399</h2>
+                        <p>KIDS CRICKET THIGH GUARD</p>
+                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                        </td>
+                
+                        <td colspan="2" style="padding:20px;">
+                            <img src="ce5.avif" style="width:330px; height:300px;">
+                            <p>FLX</p>
+                            <h2>₹99</h2>
+                            <p>SWEAT MANAGING CRICKET BATTING INNER GLOVE</p>
+                            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                            </td>
+                
+                            <td colspan="2" style="padding:20px;">
+                                <img src="ce6.avif" style="width:330px; height:300px;">
+                                <p>FLX</p>
+                                <h2>₹1,799</h2>
+                                <p>ADULT CRICKET GLOVE GL</p>
+                                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                </td>
+                
+                                <td colspan="2" style="padding:20px;">
+                                    <img src="ce7.avif" style="width:330px; height:300px;">
+                                    <p>FLX</p>
+                                    <h2>₹999</h2>
+                                    <p>CRICKET BAG BLACK</p>
+                                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2" style="padding:20px;">
+                                        <img src="ce11.avif" style="width:330px; height:300px;">
+                                        <p>FLX</p>
+                                        <h2>₹299</h2>
+                                        <p>CRICKET TRAINING STUMP</p>
+                                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                        </td>
+                                
+                                        <td colspan="2" style="padding:20px;">
+                                            <img src="ce9.avif" style="width:330px; height:300px;">
+                                            <p>FLX</p>
+                                            <h2>₹1000</h2>
+                                            <p>CRICKET STUMP SET </p>
+                                            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                            </td>
+                                
+                                            <td colspan="2" style="padding:20px;">
+                                                <img src="ce8.avif" style="width:330px; height:300px;">
+                                                <p>FLX</p>
+                                                <h2>₹999</h2>
+                                                <p>KIDS CRICKET KIT BAG 50 L </p>
+                                                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                                </td>
+                                
+                                                <td colspan="2" style="padding:20px;">
+                                                    <img src="ce10.avif" style="width:330px; height:300px;">
+                                                    <p>FLX</p>
+                                                    <h2>₹299</h2>
+                                                    <p>INDOOR TRAINING HANGING BALL </p>
+                                                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                                    </td>
+                                                </tr>
+</table>
+</div>
+</div>
+
+<section id="copy-right">
+  <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
+    © 2024 Dev'S Sports Store India Pvt Ltd. All rights reserved 
+
+
+  </div>
+
+</section>
+
+</html>
+
+
+
+
+ 

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swimming Collection</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="icon" href="Dev logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="-webkit-mask-image: url(//resources/images/icon_search.svg);">
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    
+
+
+    body {
+      position: relative;
+    }
+    #section1 {padding-top:50px;height:auto;color: #fff; background-color: #b94c74;}
+    #section2 {padding-top:50px;height:auto;color: #fff; background-color: #673ab7;}
+    #section3 {padding-top:50px;height:auto;color: #fff; background-color: #009688;}
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    tr, td {
+        border: transparent;
+        padding: 8px;
+        text-align: left;
+    }
+    /* Responsive styles */
+    @media (max-width: 600px) {
+        table {
+            border: 0;
+        }
+        th, td {
+            border: 0;
+            display: block;
+            padding: 4px;
+        }
+        th {
+            text-align: center;
+        }
+    }
+    </style>
+<header>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="logo.png" height="35px"></a>
+        </div>
+        
+          <div class="collapse navbar-collapse" id="myNavbar">
+            
+            <ul class="nav navbar-nav">
+                
+                <li><a href="#section1">Men Collection </a></li>
+              <li><a href="#section2">Women Collection</a></li>
+              <li><a href="#section3">Accessories</a></li>
+              
+            </ul>
+            <ul class="nav navbar-right">
+                <li><h2>Swimming Collection</h2></a></li>
+            </ul>
+                
+          
+        </div>
+      </div>
+    </nav> 
+    
+</body>
+</header>
+<!--modal for cart-->
+
+<div class="modal fade" id="myModal123" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4><img src="logo.png" alt="logo" width="90px"></h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="right logo.png" alt="rightlogo" height="20px">
+          <label><b>Product added to cart</b></label><br>
+          <input type="button"class="btn btn-primary" value="OK" data-dismiss="modal" >
+          
+        </center>
+      </div>
+     
+    </div>
+    
+  </div>
+</div>
+
+
+<!--modal for wishlist-->
+<div class="modal fade" id="myModal1234" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4><img src="logo.png" alt="logo" width="90px"></h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="wishlist.png" alt="rightlogo" height="80px"><br><br>
+          <label><b>Product added to Wishlist</b></label><br>
+          <input type="button"class="btn btn-primary" value="OK" data-dismiss="modal" >
+          
+        </center>
+      </div>
+     
+    </div>
+    
+  </div>
+</div>
+
+
+
+<!--modal for  buy-->
+<div class="modal fade" id="myModal12345" role="dialog">
+  <div class="modal-dialog">
+  
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4><img src="logo.png" alt="logo" width="90px"></h4>
+      </div>
+      <div class="modal-body">
+        <center>
+          <img src="sorry.png" alt="rightlogo" height="80px"><br><br>
+          <label><b>First you signup or Login in Dev's sport store and than continue your shopping</b></label><br>
+          <input type="button"class="btn btn-primary" value="OK" data-dismiss="modal" >
+          
+        </center>
+      </div>
+     
+    </div>
+    
+  </div>
+</div>
+
+<div class="#">
+  <h2>Swimming Collection</h2>
+  <img src="swimming adds men.avif" alt="Swimming Collection add img" style="width: 100%;" >
+</div>
+
+
+
+<!--Men Collection -->
+
+<div id="section1" class="container-fluid">
+  <center><h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">Men Collection </h2></center><br><br>
+  <hr color="Black">
+  <div style="overflow-x:auto;">
+              <table>
+    <tr>
+      <td colspan="2" style="padding:20px;">
+          <img src="sm.avif" style="width:330px; height:300px;">
+          <p>NABAIJI</p>
+          <h2>₹599</h2>
+          <p>Men Swimming Boxer Black</p>
+          <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+          </td>
+
+          <td colspan="2" style="padding:20px;">
+              <img src="sm1.avif" style="width:330px; height:300px;">
+              <p>NABAIJI</p>
+              <h2>₹499</h2>
+              <p>Men's Swimming Shorts - Swimshort</p>
+              <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+          </td>
+                  <td colspan="2" style="padding:20px;">
+                      <img src="sm3.avif" style="width:330px; height:300px;">
+                      <p>NABAIJI</p>
+                      <h2>₹399</h2>
+                      <p>Men Swimming Jammer with inner mesh lining</p>
+                      <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                      </td>
+
+                      <td colspan="2" style="padding:20px;">
+                        <img src="sm2.avif" style="width:330px; height:300px;">
+                        <p>NABAIJI</p>
+                        <h2>₹499</h2>
+                        <p>Men Swimming Jammer with inner mesh lining</p>
+                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                        </td>
+      
+           </tr>
+    
+    
+    
+    
+    
+    
+  <tr>
+    <td colspan="2" style="padding:15px;">
+        <img src="sm4.avif" style="width:330px; height:300px;">
+        <p>OLAIAN</p>
+        <h2>₹999</h2>
+        <p>Men Surfing UV Rash Guard</p>
+        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+
+    
+        <td colspan="2" style="padding:20px;">
+            <img src="sm5.avif" style="width:330px; height:300px;">
+            <p>OLAIAN</p>
+            <h2>₹1,799</h2>
+            <p>Men's Surfing Long Sleeve UV Protection</p>
+            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+    
+            <td colspan="2" style="padding:20px;">
+                <img src="sm6.avif" style="width:330px; height:300px;">
+                <p>NABAIJI</p>
+                <h2>₹799</h2>
+                <p>Men Swimming Trunk 900 B Fast Black</p>
+                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                </td>
+    
+    
+                <td colspan="2" style="padding:20px;">
+                    <img src="sm7.avif" style="width:330px; height:300px;">
+                    <p>OLAIAN</p>
+                    <h2>₹999</h2>
+                    <p>Men surfing 100 eco anti-UV leggings </p>
+                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                    </td>
+    
+    </tr>
+
+    <tr>
+        <td colspan="2" style="padding:20px;">
+            <img src="sm8.avif" style="width:330px; height:300px;">
+            <p>OLAIAN</p>
+            <h2>₹1,199</h2>
+            <p>Men Surfing boardshorts</p>
+            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+
+            <td colspan="2" style="padding:20px;">
+                <img src="sm9.avif" style="width:330px; height:300px;">
+                <p>OLAIAN</p>
+                <h2>₹399</h2>
+                <p>Men Surfing Hendaia Boardshorts Short</p>
+                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                </td>
+
+                <td colspan="2" style="padding:20px;">
+                    <img src="sm10.avif" style="width:330px; height:300px;">
+                    <p>OLAIAN</p>
+                    <h2>₹799</h2>
+                    <p>Men Surfing Surf Hat 500 Black</p>
+                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                    </td>
+
+                    <td colspan="2" style="padding:20px;">
+                        <img src="sm11.avif" style="width:330px; height:300px;">
+                        <p>NABAIJI</p>
+                        <h2>₹2,999</h2>
+                        <p>Men Swimming Jammer-Swim Short</p>
+                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                        </td>
+          </tr>
+
+        </table>
+      </div>
+      </div>
+
+  <!--Women Collection-->    
+
+  
+
+          <div id="section2" class="container-fluid">
+            <img src="swimming adds women.avif" alt="Women Collection add img" style="width: 100%;" ><br><br><br><br>
+          <center><h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">Women Collection</h2></center><br><br>
+  <hr color="Black">
+  
+  
+  <div style="overflow-x:auto;">
+              <table>
+    <tr>
+
+
+    
+      <td colspan="2" style="padding:20px;">
+        <img src="sw.avif" style="width:330px; height:300px;">
+        <p>NABAIJI</p>
+        <h2>₹999</h2>
+        <p>Women Swimming Leggings Una Black</p>
+        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+        <td colspan="2" style="padding:20px;">
+            <img src="sw1.avif" style="width:330px; height:300px;">
+            <p>NABAIJI</p>
+            <h2>₹1,799</h2>
+            <p>Women Swimming One Piece Full Sleeve</p>
+            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+
+            
+            <td colspan="2" style="padding:20px;">
+              <img src="sw2.avif" style="width:330px; height:300px;">
+              <p>NABAIJI</p>
+              <h2>₹599</h2>
+              <p>Women Swimming Shorts Black</p>
+              <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+              </td>
+
+
+            <td colspan="2" style="padding:20px;">
+                <img src="sw3.avif" style="width:330px; height:300px;">
+                <p>NABAIJI</p>
+                <h2>₹999</h2>
+                <p>Women Swimming One Piece </p>
+                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                </td>
+
+        
+          
+
+     </tr>
+    
+    
+
+             <tr>
+                <td colspan="2" style="padding:20px;">
+                    <img src="sw4.avif" style="width:330px; height:300px;">
+                    <p>OLAIAN</p>
+                    <h2>₹999</h2>
+                    <p>Women's textured one-piece swimsuit </p>
+                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                    </td>
+
+                    <td colspan="2" style="padding:20px;">
+                        <img src="sw5.avif" style="width:330px; height:300px;">
+                        <p>OLAIAN</p>
+                        <h2>₹1,199</h2>
+                        <p>Women's One Piece Long Sleeve</p>
+                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                        </td>
+
+                        <td colspan="2" style="padding:20px;">
+                            <img src="sw6.avif" style="width:330px; height:300px;">
+                            <p>OLAIAN</p>
+                            <h2>₹1,799</h2>
+                            <p>Women swimming one-piece swimsuit </p>
+                            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                            </td>
+
+                            <td colspan="2" style="padding:20px;">
+                                <img src="sw7.avif" style="width:330px; height:300px;">
+                                <p>OLAIAN</p>
+                                <h2>₹999</h2>
+                                <p>Women ONE-PIECE swimsuit ANDREA </p>
+                                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                                </td>
+             </tr>
+
+             <tr>
+                <td colspan="2" style="padding:20px;">
+                    <img src="sw8.avif" style="width:330px; height:300px;">
+                    <p>NABAIJI</p>
+                    <h2>₹599</h2>
+                    <p>Women Swimming Skirt Una Black</p>
+                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                    </td>
+
+                    <td colspan="2" style="padding:20px;">
+                        <img src="sw9.avif" style="width:330px; height:300px;">
+                        <p>NABAIJI</p>
+                        <h2>₹1,799</h2>
+                        <p>Women's Aquafit-Aquabiking Shorty 1-Piece</p>
+                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                        </td>
+
+                 <td colspan="2" style="padding:20px;">
+        <img src="sw10.avif" style="width:330px; height:300px;">
+        <p>NABAIJI</p>
+        <h2>₹699</h2>
+        <p>Women Bikini Swimsuit Top Lila Melon</p>
+        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+        <td colspan="2" style="padding:20px;">
+            <img src="sw11.avif" style="width:330px; height:300px;">
+            <p>NABAIJI</p>
+            <h2>₹999</h2>
+            <p>Women one-piece Swimsuit Vega Navy Blue</p>
+            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+             </tr>
+  </table>
+ </div>
+ </div>
+<!--Accessories-->
+
+<div id="section3" class="container-fluid">
+  <img src="swimming accessories.avif" alt="Accessories add img" style="width: 100%;" ><br><br><br><br>
+  <center><h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">Accessories</h2></center><br><br>
+<hr color="Black">
+
+<div style="overflow-x:auto;">
+              <table>
+
+
+<tr>
+    <td colspan="2" style="padding:20px;">
+        <img src="sa.avif" style="width:330px; height:300px;">
+        <p>NABAIJI</p>
+        <h2>₹499</h2>
+        <p>Swimming goggles XBASE - Clear lenses</p>
+        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+<td colspan="2" style="padding:20px;">
+        <img src="sa1.avif" style="width:330px; height:300px;">
+        <p>NABAIJI</p>
+        <h2>₹499</h2>
+        <p>Swimming cap for long hair 500 - rubi</p>
+        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+        <td colspan="2" style="padding:20px;">
+            <img src="sa4.avif" style="width:330px; height:300px;">
+            <p>NABAIJI</p>
+            <h2>₹99</h2>
+            <p>Microfiber Towel Size S 39 X 55 CM</p>
+            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+
+            <td colspan="2" style="padding:20px;">
+                <img src="sa5.avif" style="width:330px; height:300px;">
+                <p>NABAIJI</p>
+                <h2>₹999</h2>
+                <p>Swimming Inflatable Ring With Seat </p>
+                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                </td>
+                </tr>
+
+     <tr>
+        <td colspan="2" style="padding:20px;">
+            <img src="sa6.avif" style="width:330px; height:300px;">
+            <p>NABAIJI</p>
+            <h2>₹499</h2>
+            <p>Swimming Kickboard Blue Black</p>
+            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+
+            <td colspan="2" style="padding:20px;">
+                <img src="sa7.avif" style="width:330px; height:300px;">
+                <p>NABAIJI</p>
+                <h2>₹399</h2>
+                <p>Kids Swimming Armbands For 11 to 30 Kg </p>
+                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                </td>
+
+                <td colspan="2" style="padding:20px;">
+                    <img src="sa2.avif" style="width:330px; height:300px;">
+                    <p>NABAIJI</p>
+                    <h2>₹1,199</h2>
+                    <p>SPIRIT swimming goggles </p>
+                    <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                    </td>
+
+                    <td colspan="2" style="padding:20px;">
+                        <img src="sa8.avif" style="width:330px; height:300px;">
+                        <p>NABAIJI</p>
+                        <h2>₹499</h2>
+                        <p>Inflatable Pool Ring 51 cm </p>
+                        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                        </td>
+     </tr>
+
+     <tr>
+        <td colspan="2" style="padding:20px;">
+            <img src="sa9.avif" style="width:330px; height:300px;">
+            <p>NABAIJI</p>
+            <h2>₹1499</h2>
+            <p>Swim vest SWIMVEST+ green blue</p>
+            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+
+
+            <td colspan="2" style="padding:20px;">
+                <img src="sa10.avif" style="width:330px; height:300px;">
+                <p>WATKO</p>
+                <h2>₹399</h2>
+                <p>Pool Ball Size- 4 GREEN</p>
+                <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+                </td>
+
+          <td colspan="2" style="padding:20px;">
+        <img src="sa3.avif" style="width:330px; height:300px;">
+        <p>NABAIJI</p>
+        <h2>₹159</h2>
+        <p>Swimming Cap Silicone</p>
+        <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+        </td>
+
+        <td colspan="2" style="padding:20px;">
+            <img src="sa11.avif" style="width:330px; height:300px;">
+            <p>NABAIJI</p>
+            <h2>₹299</h2>
+            <p>Pool Sandals SLAP 100 BASIC Grey</p>
+            <a href="#" data-toggle="modal" data-target="#myModal12345"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > BUY</strong></button></a>     <a href="#" data-toggle="modal" data-target="#myModal123"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</strong></button> </a><a href="#" data-toggle="modal" data-target="#myModal1234"><button class=" w-full md:w-1/2 text-base flex items-center justify-center caret-transparent after:h-full after:bottom-[-15px] bg-blue-400 py-3 px-[15px] text-white btn-brand-blue btn-primary btn" type="button" loader-start="Loading..." loader-end="Notified" id="product-page-notify-me-popover"><strong class="text-26" > <span class="glyphicon glyphicon-heart"></span> Add To Wishlist</strong></button></a>
+            </td>
+     </tr>
+</table>
+</div>
+</div>
+
+<section id="copy-right">
+  <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
+    © 2024 Dev'S Sports Store India Pvt Ltd. All rights reserved 
+
+
+  </div>
+
+</section>
+
+</html>
+
+
+
+
+ 
